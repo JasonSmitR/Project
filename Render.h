@@ -6,7 +6,9 @@ public:
     std::vector<sf::VideoMode> getScreenSizes();
     int getScreenyRes();
     int getScreenxRes();
-    sf::RenderWindow& startRendering();
+    bool isOpen();
+    void startRendering();
+    sf::RenderWindow& RenderWinPointer();
 private:
     int _xRes=1600; //default value
     int _yRes=900; //default value

@@ -12,8 +12,8 @@
     {
             auto button_y_pos = _y_pos * _offset_between_buttons;
             _rect.setSize(sf::Vector2f(_button_size_x,_button_size_y));
-            xRes = Render::getScreenxRes();
-            int button_left_lim = xRes/2-_button_size_x/2;
+            
+            int button_left_lim = _xRes/2-_button_size_x/2;
             _rect.setPosition(button_left_lim,button_y_pos);
             _rect.setFillColor(sf::Color::White);
             

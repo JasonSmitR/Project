@@ -3,7 +3,7 @@
 class Button
 {
 public:
-    Button(int y_pos, std::string name, int char_size): _y_pos(y_pos), _name(name), _char_size(char_size) {}
+    Button(int y_pos, std::string name, int xRes, int yRes): _y_pos(y_pos), _name(name), _xRes(xRes), _yRes(yRes) {}
     ~Button();
     void create_button();
     void set_font();
@@ -15,7 +15,8 @@ private:
     const int _offset_between_buttons = 150;
     int _y_pos;
     std::string _name;
-    int _char_size;
+    int _xRes;
+    int _yRes;
     sf::Font _font;
     sf::RectangleShape _rect;
     sf::Text _text_in_rect;
