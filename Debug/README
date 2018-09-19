@@ -1,0 +1,11 @@
+V0.1
+Inluded centipede.exe which should run as all the DLL's are included as can be seen
+Font files and background image is found in reqs
+V0.2
+Included Player.exe 
+V0.3
+Updated centipede.exe with a working splash(buttons respond to inputs)
+v0.4
+Moving shooting player
+v0.5
+Updated moving shooting, now has boundaries
