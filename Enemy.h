@@ -18,9 +18,8 @@ private:
 public: 
 
     bool rightDirection; 
-// Constructor. Initializing position.
-  Enemy(float initialPosition);
-   void  drawEnemy (RenderWindow &window);
+    Enemy(float initialPosition);
+    void  drawEnemy (RenderWindow &window);
     FloatRect getPosition();
     RectangleShape getShape();
     void update();
@@ -31,10 +30,10 @@ public:
     bool leftLocationAllowed();
     bool rightLocationAllowed();
     bool checkCollision(Bullet bullet);
-     bool checkCollision(Player player);
-   Vector2f returnPosition();
+    bool checkCollision(Player player);
+    Vector2f returnPosition();
     float returnPositionX();
-     float returnPositionY();
+    float returnPositionY();
  
 
 
